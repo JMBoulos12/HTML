@@ -19,3 +19,5 @@ Here we have use these tags:
     ``<td>…</td>``, Column tag, It adds columns within the row
     ``<th>…</th>``, Header tag, It adds headers within the row
     
+**Example:**  
+
