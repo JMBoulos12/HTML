@@ -19,7 +19,7 @@ Once you are familiar with the competency of HTML and its tags, then it will be 
     ``<table>``, It is used to add a table Here <tr> adds a row and <td> adds a column, ``<table>`` ``<tr>`` ``<td>Column 1</td>`` ``</tr>`` ``</table>``
     ``<form>``, It is used to add html form, ``<form>`` ``User Name: <input name=”Name” value=””>`` ``</form>``
     ``<input>``, It is used to take input from the user, User Name: <input name=”Name” value=””>
-    ``<script>``, It is used to add a client client-side script (JavaScript) (__)Note: It can be both an internal JS file stored at same host or any external api., __Internal Script: <script src=”myScript.js”/> __External Script: <script src=”https://xyz.com/test-app.js”>
+    ``<script>``, It is used to add a client client-side script (JavaScript) **Note:** It can be both an internal JS file stored at same host or any external api., __Internal Script: <script src=”myScript.js”/> __External Script: <script src=”https://xyz.com/test-app.js”>
         
     
     
