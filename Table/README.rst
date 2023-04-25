@@ -1,8 +1,8 @@
-#Introduction
+**Introduction:**
 In real world applications, tables are widely used to display organization data. In HTML too we can create our own Table with columns, headers and rows. 
 With the help of query functions in JavaScript we can even add rows and columns to these tables at runtime.
 
-#Tables in HTML
+**Tables in HTML:**
 To display table in HTML we use <table> tag. For each row we use <tr> tag [tr stands for table row] and for each header and column we use <th> [table “” not found /]
 and <td> [table “” not found /]
 tag respectively. This can be easily understood by given syntax and example:
@@ -25,4 +25,4 @@ Here we have use these tags:
 **Output**
     .. figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Output.png?ezimgfmt=rs:408x255/rscb3/ng:webp/ngcb3
 
-Note: You might be missing table border here. Table border comes under CSS section, which will be covered later.
+**Note:** You might be missing table border here. Table border comes under CSS section, which will be covered later.
