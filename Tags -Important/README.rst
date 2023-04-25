@@ -13,7 +13,7 @@ Once you are familiar with the competency of HTML and its tags, then it will be 
     ``<a>``, It is used to add link, ``<a href=“your_link>Text to be clicked</a>``
     ``<div>``, 	It is used to add a division or a section, ``<div> Other HTML elements </div>``
     ``<br>``, It is used to add a line break, <br>
-    ``<b> or <strong>``, It is used to make a text bold, ``<b> India </b>`` or ``<strong> Germany </b>``
+    ``<b>`` or ``<strong>``, It is used to make a text bold, ``<b> India </b>`` or ``<strong> Germany </b>``
     
     
     
