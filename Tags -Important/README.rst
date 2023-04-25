@@ -8,12 +8,12 @@ Once you are familiar with the competency of HTML and its tags, then it will be 
     :header: Installation example, Remark, TEST0
 
     ``<img>``, It is used to add Image, <img src=”your_image_source”>
-    ``<h1>-<h6>``, It is used to add heading, ``<h1>Your main title</h1>`` ``<h2>Your top-level heading</h2>`` ``<h3>Your subheading</h3>`` ``<h4>Your sub-subheading</h4>``
-    ``pip install pytablewriter[html]``, HTML
-    ``pip install pytablewriter[sqlite]``, SQLite database
-    ``pip install pytablewriter[toml]``, TOML
-    ``pip install pytablewriter[theme]``, pytablewriter theme plugins
-    ``pip install pytablewriter[all]``, Install all of the optional dependencies
+    ``<h1>-<h6>``, It is used to add heading, ``<h1>Your main title</h1>`` ``<h2>Your top-level heading</h2>`` ``<h3>Your subheading</h3>`` ``<h4>Your sub subheading</h4>``
+    ``<p>``, It is used to add paragraph, ``<p> Add your paragraph here </p>``
+    ``<a>``, It is used to add link, ``<a href=“your_link>Text to be clicked</a>``
+    ``<div>``, 	It is used to add a division or a section, ``<div> Other HTML elements </div>``
+    ``<br>``, It is used to add a line break, <br>
+    ``<b> or <strong>``, It is used to make a text bold, ``<b> India </b>`` or ``<strong> Germany </b>``
     
     
     
