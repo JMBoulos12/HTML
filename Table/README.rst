@@ -21,3 +21,8 @@ Here we have use these tags:
     
 **Example:** 
     .. figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Example.png?ezimgfmt=rs:459x577/rscb3/ng:webp/ngcb3
+    
+**Output**
+    .. figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Output.png?ezimgfmt=rs:408x255/rscb3/ng:webp/ngcb3
+
+Note: You might be missing table border here. Table border comes under CSS section, which will be covered later.
