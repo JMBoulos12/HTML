@@ -5,7 +5,7 @@ Once you are familiar with the competency of HTML and its tags, then it will be 
 #Important tags in HTML
 
 .. csv-table:: Although we have almost 100 tags in HTML, but there are certain that are used on daily basis and are the most common.
-    :header: Installation example, Remark, TEST0
+    :header: Tag, Description, Example
 
     ``<img>``, It is used to add Image, <img src=”your_image_source”>
     ``<h1>-<h6>``, It is used to add heading, ``<h1>Your main title</h1>`` ``<h2>Your top-level heading</h2>`` ``<h3>Your subheading</h3>`` ``<h4>Your sub subheading</h4>``
