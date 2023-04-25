@@ -8,7 +8,7 @@ and <td> [table “” not found /]
 tag respectively. This can be easily understood by given syntax and example:
   
 **Syntax**
-  ![image](https://user-images.githubusercontent.com/65892342/234262893-2c74ecac-e92c-4479-88bf-393388c6d98b.png)
+  .. figure:: https://user-images.githubusercontent.com/65892342/234262893-2c74ecac-e92c-4479-88bf-393388c6d98b.png
   
 Here we have use these tags:
   .. csv-table:: Although we have almost 100 tags in HTML, but there are certain that are used on daily basis and are the most common.
