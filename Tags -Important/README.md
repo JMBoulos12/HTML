@@ -14,3 +14,6 @@ Although we have almost 100 tags in HTML, but there are certain that are used on
     ``pip install pytablewriter[toml]``, TOML
     ``pip install pytablewriter[theme]``, pytablewriter theme plugins
     ``pip install pytablewriter[all]``, Install all of the optional dependencies
+    
+    
+    
