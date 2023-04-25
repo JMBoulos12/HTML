@@ -3,9 +3,8 @@ In this article we will go through all the Important HTML tags once.
 Once you are familiar with the competency of HTML and its tags, then it will be easier for you to implement them according to your requirement.
 
 #Important tags in HTML
-Although we have almost 100 tags in HTML, but there are certain that are used on daily basis and are the most common.
 
-.. csv-table:: Installation of optional dependencies
+.. csv-table:: Although we have almost 100 tags in HTML, but there are certain that are used on daily basis and are the most common.
     :header: Installation example, Remark, TEST0
 
     ``pip install pytablewriter[es]``, Elasticsearch, TEST1
