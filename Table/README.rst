@@ -20,4 +20,5 @@ Here we have use these tags:
     ``<th>…</th>``, Header tag, It adds headers within the row
     
 **Example:**  
-
+    :figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Example.png?ezimgfmt=rs:459x577/rscb3/ng:webp/ngcb3
+    :scale: 80%
