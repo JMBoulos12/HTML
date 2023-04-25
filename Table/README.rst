@@ -19,6 +19,7 @@ Here we have use these tags:
     ``<td>…</td>``, Column tag, It adds columns within the row
     ``<th>…</th>``, Header tag, It adds headers within the row
     
-**Example:**  
-    :figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Example.png?ezimgfmt=rs:459x577/rscb3/ng:webp/ngcb3
+**Example:** 
+:Rendering Result:
+    .. figure:: https://gocoding.org/wp-content/uploads/2020/06/HTML-Table-Example.png?ezimgfmt=rs:459x577/rscb3/ng:webp/ngcb3
     :scale: 80%
