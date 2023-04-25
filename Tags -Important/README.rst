@@ -8,7 +8,10 @@ Once you are familiar with the competency of HTML and its tags, then it will be 
     :header: Installation example, Remark, TEST0
 
     ``<img>``, It is used to add Image, <img src=”your_image_source”>
-    ``<h1>-<h6>``, It is used to add heading, <h1>Your main title</h1> <h2>Your top-level heading</h2> <h3>Your subheading</h3> <h4>Your sub-subheading</h4>
+    ``<h1>-<h6>``, It is used to add heading, - <h1>Your main title</h1> 
+                                              - <h2>Your top-level heading</h2> 
+                                              - <h3>Your subheading</h3> 
+                                              - <h4>Your sub-subheading</h4>
     ``pip install pytablewriter[html]``, HTML
     ``pip install pytablewriter[sqlite]``, SQLite database
     ``pip install pytablewriter[toml]``, TOML
