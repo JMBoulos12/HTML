@@ -1,0 +1,34 @@
+
+
+
+
+/**
+  The HTML5 canvas element is used to draw graphics, animation, dynamic images, diagram, text to enhance the user experience. 
+  <canvas> tag is used to add canvas on the web page. It is pixel based and powered by Javascript. 
+  Canvas provides features to draw and manipulate images in any 2D and 3D context.
+  
+  11-May-2023
+*/
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<canvas id="myCanvas" width="150" height="150">
+</canvas>
+<script>
+var canvas = document.getElementById('myCanvas');
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = "rgba(255,0,0,0.3)";
+ctx.fillRect (10, 10, 95, 90);
+ctx.fillStyle = "rgba(0,255,0,0.3)";
+ctx.fillRect (50, 50, 105, 100);
+</script>
+</body>
+</html>
+
+/*
+  In the above code, getContext() is a method that returns an object for working on canvas. 
+  The fillStyle is a property of canvas and used to fill color gradient in the drawing 
+  and the fillRect method is used to draw a filled rectangle.
+*/
