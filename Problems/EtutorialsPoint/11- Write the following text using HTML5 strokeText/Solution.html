@@ -1,0 +1,31 @@
+
+
+
+
+/**
+  Print with style: ** Good Morning! **
+  
+	The strokeText() method draws text on the canvas. 
+  To set the stoke color of text, we can set by using stokeStyle property of canvas context to a color string.
+	
+	12-May-2023
+*/
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+	 <script>
+	  var canvas = document.getElementById('mycanvas');
+	  var context = canvas.getContext('2d');
+	  var x = 50;
+	  var y = 90;
+	  context.font = "50px Georgia";
+	  context.lineWidth = 3;
+	  context.strokeStyle = 'green';
+	  context.strokeText('Good Morning!', x, y);
+	 </script>
+	</head>
+	<body>
+	  <canvas id="myCanvas" width="378" height="200"></canvas>
+	</body>
+</html>
