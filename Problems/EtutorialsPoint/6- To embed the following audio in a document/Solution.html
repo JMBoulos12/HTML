@@ -1,0 +1,22 @@
+
+
+
+
+/**
+    HTML5 provides audio element to embed audio in web page. Prior to HTML5, we are using third party plug-ins, 
+    like - Flash, Window Media Center, Apple iTunes, etc to play audio on the browser. 
+    The problem with these plug-ins are that, not all browsers or devices support it. 
+    HTML5 provides a standard way to include audio with several attributes which improve its default behavior.
+    
+    The text enclosed within the <audio> element will appear in only those browsers which do not support <audio> element.
+      
+    12-May-2023
+**/
+
+
+<audio controls="controls">
+	<source src="audio/audio.mp3" type="audio/mpeg" />
+	<source src="audio/audio.wav" type="audio/wav" />
+	<source src="audio/audio.ogg" type="audio/ogg" />	
+	Your browser does not support the embedded HTML5 audio element.
+</audio>
