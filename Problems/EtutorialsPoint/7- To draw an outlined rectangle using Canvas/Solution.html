@@ -1,0 +1,39 @@
+
+
+
+
+/**
+     HTML5 provides strokeRect() method to draw outlines rectangle using canvas. This is a method of HTML <canvas> element.
+      
+     Syntax of strokeRect()
+     context.strokeRect(x,y,width,height);
+     
+     Here, x and y are the x and y axis coordinates of the rectangle respectively, 
+     width and height are used to set the width and the height of rectangle.
+	12-May-2023
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+window.onload = function()
+{
+canvas = document.getElementById("canvasArea");
+context = canvas.getContext("2d");
+var xPos = 20; var yPos = 20;
+var width = 100; var height = 50;
+context.strokeStyle = "red";
+context.strokeRect (xPos+130, yPos, width, height);
+}
+</script>
+</head>
+<body>
+<div style = "width:400px; height:90px; margin:0 auto; padding:5px;">
+<canvas id = "canvasArea"
+width = "400" height = "90" style = "border:2px solid black">
+Your browser doesn't currently support HTML5 Canvas.
+</canvas> 
+</div>
+</body>
+</html>
