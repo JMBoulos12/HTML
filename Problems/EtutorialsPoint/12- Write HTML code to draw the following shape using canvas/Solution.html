@@ -1,0 +1,51 @@
+
+
+
+
+/**
+	  HTML5 canvas element is used to draw graphics, animation, dynamic images, diagram, text to enhance the user experience. 
+    <canvas> tag is used to add canvas on the web page. It is pixel based and powered by Javascipt. 
+    The canvas area of the web page is accessed by javascript code.
+	
+	12-May-2023
+*/
+
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+	<script>
+	window.onload = function()
+	{
+		var width = 70;  var space = 2;
+		drawShape(5+(2*space)+(2*width), 120, "round");
+		
+		function drawShape(xStart, yStart, join)
+		{
+                var height = 85;
+		canvas = document.getElementById("canvasreason");
+		context = canvas.getContext("2d");
+		context.strokeStyle = "blue"; 
+		context.lineWidth = 25;
+		context.shadowOffsetX = 4; 
+		context.shadowOffsetY = 4;
+		context.shadowBlur = 5; 
+		context.shadowColor = "gray";
+		context.lineCap = "round";
+		context.beginPath();
+		context.moveTo(xStart, yStart);
+		context.lineTo(xStart+(width/2), yStart-height);
+		context.lineTo(xStart+width, yStart);
+		context.lineJoin = join;
+		context.stroke();
+		}
+	}
+	</script> 
+</head> 
+<body>
+	<div style="width:500px; height:160px; margin:0 auto; padding:5px;">
+	<canvas id = "canvasreason" width = "500" height = "160" >
+	Your browser does not support the HTML5 canvas element.
+	</canvas> 
+	</div> 
+</body> 
+</html>
