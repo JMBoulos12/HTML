@@ -1,0 +1,42 @@
+
+
+
+
+/**
+	HTML5 provides addcolorstop() method to identify the colors and location in a gradient object. This is a method of HTML5 canvas element.
+	
+  Syntax of addcolorstop()
+  gradient.addColorStop(stop,color);
+  Here, stop is a value between 0.0 and 1.0 that represents the position between start 
+  and end in a gradient and color is a color value to display at the stop position.
+
+  This is the following HTML5 code to draw a rectangle using canvas and fill color in gradient from red to pink from start to end.
+
+  In the above code, getContext() method returns an object for working on canvas, 
+  the fillStyle is a property of canvas and used to fill color gradient in the drawing 
+  and the fillRect() method is used to draw a filled rectangle.
+
+	12-May-2023
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>addcolorstop() method</title>
+</head>
+<body>
+<canvas id ="convasbx"
+ width="300" height="150" style="border:1px solid #d3d3d3;">
+Your browser doesn't currently support HTML5 Canvas.
+</canvas> 
+<script>
+	var c = document.getElementById("convasbx");
+	var context= c.getContext("2d");
+	var gradient= context.createLinearGradient(10,10,150,0);
+	gradient.addColorStop(0, "red");
+	gradient.addColorStop(1, "pink");
+	context.fillStyle = gradient;
+	context.fillRect(30, 20, 180, 100);
+</script>
+</body>
+</html>
