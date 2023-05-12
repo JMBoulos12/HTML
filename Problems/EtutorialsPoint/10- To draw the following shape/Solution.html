@@ -1,0 +1,39 @@
+
+
+
+
+/**
+	The globalCompositeOperation() is a property of HTML5 Canvas 2D API. 
+  This property defines how a source image are drawn over a destination image.
+
+  In the following code, we are using 'destination-over' composition property to draw the rectangle over the circle.
+
+	12-May-2023
+*/
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+	 <script>
+        function drawComposition() {
+		   var label = document.createTextNode('destination-over');
+		   var ctx = document.getElementById('compo').getContext('2d');
+		   //rectangle
+		   ctx.fillStyle = "#00AAA0";
+		   ctx.fillRect(15,15,70,70);
+		   
+		   //Set the composition property
+		   ctx.globalCompositeOperation = 'destination-over';
+		   
+		   // circle
+		   ctx.fillStyle = "#FF7A5A";
+		   ctx.beginPath();
+		   ctx.arc(75,75,35,0,Math.PI*2,true);
+		   ctx.fill();
+		}
+	 </script>
+	</head>
+	<body onload="drawComposition();">
+	<canvas id="compo" width="125" height="125"></canvas>
+	</body>
+</html>
