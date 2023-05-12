@@ -1,0 +1,35 @@
+
+
+
+
+/**
+	a2 + b2 = c2
+  
+  HTML5 MathML provides a way to write mathematics on the web page. All mathematical expression are written inside <math> tag. 
+  There are many child elements of the math element. 
+  Unfortunately, not all browsers support math element. So use the latest mozilla or chrome for render it.
+  
+  Output of the above code
+  a2 + b2 = c2
+  
+  Here, mrow is horizontally group sub-expressions, msup is superscript, mi is identifier, mo is operator and mn is numeric literal.
+	
+	12-May-2023
+*/
+
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+</head> 
+<body>
+	<math xmlns="http://www.w3.org/1998/Math/MathML">
+	 <mrow>
+		<msup><mi>a</mi><mn>2</mn></msup>
+		<mo>+</mo>
+		<msup><mi>b</mi><mn>2</mn></msup>
+		<mo> = </mo>
+		<msup><mi>c</mi><mn>2</mn></msup>
+	 </mrow>
+	</math>
+</body> 
+</html>
